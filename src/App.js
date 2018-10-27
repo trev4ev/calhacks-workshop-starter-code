@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import "./App.css"
 
 class App extends Component {
 
@@ -17,10 +18,17 @@ class App extends Component {
   render() {
     return (
       <div className="todo-container">
-        <input className="todo-input" placeholder="New Item"/>
-        <button className="todo-submit">Submit</button>
+        <div className="input-container">
+          <input className="todo-input" placeholder="New Item"/>
+          <button className="todo-submit">Submit</button>
+        </div>
         <ul className="todo-item-list">
           <li>First item</li>
+          <li>First item</li>
+          <li>First item</li>
+          <li>First item</li>
+          <li>First item</li>
+          
         </ul>
       </div>
     )
