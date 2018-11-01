@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import "./App.css"
 
 class App extends Component {
 
@@ -23,10 +22,6 @@ class App extends Component {
           <button className="todo-submit">Submit</button>
         </div>
         <ul className="todo-item-list">
-          <li>First item</li>
-          <li>First item</li>
-          <li>First item</li>
-          <li>First item</li>
           <li>First item</li>
           
         </ul>
